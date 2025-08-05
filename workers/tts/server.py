@@ -24,7 +24,7 @@ from .data_types import TTSRequest
 
 
 # the url and port of model API
-MODEL_SERVER_URL = "http://0.0.0.0:5001"
+MODEL_SERVER_URL = "http://0.0.0.0:5001/predict"
 
 # This is the log line that is emitted once the server has started
 MODEL_SERVER_START_LOG_MSG = "infer server has started"
